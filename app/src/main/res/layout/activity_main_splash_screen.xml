@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GiaoDien.ActivitySplashScreen"
+    android:background="@drawable/gradient_animation"
+    android:id="@+id/splashScreenLayout">
+
+    <LinearLayout
+        android:id="@+id/splashScreenWaveBackground"
+        style="@style/SplashScreenWaveContainter">
+        <View
+            style="@style/SplashScreenWaveElements"/>
+        <View
+            style="@style/SplashScreenWaveElements"/>
+        <View
+            style="@style/SplashScreenWaveElements"/>
+        <View
+            style="@style/SplashScreenWaveElements"/>
+        <View
+            style="@style/SplashScreenWaveElements"/>
+        <View
+            style="@style/SplashScreenWaveElements"/>
+        <View
+            style="@style/SplashScreenWaveElements"/>
+        <View
+            style="@style/SplashScreenWaveElements"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/SplashScreenWaveContainter">
+        <RelativeLayout
+            style="@style/SplashScreenWaveContainter">
+            <ImageView
+                android:id="@+id/imgSplashScreen"
+                style="@style/SplashScreenLogoImageSpin"/>
+            <ImageView
+                android:id="@+id/imgSplashScreen2"
+                style="@style/SplashScreenLogoImageDropDown"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvAppNameSplashScreen"
+            style="@style/SplashScreenTextViewAppName" />
+
+        <TextView
+            android:id="@+id/tvInfoSplashScreen"
+            style="@style/SplashScreenTextViewInfo"/>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

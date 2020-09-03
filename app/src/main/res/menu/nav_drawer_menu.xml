@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/homeHome"
+            android:icon="@drawable/ic_home_icon"/>
+    </group>
+
+    <item android:title="@string/app_name">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_kh"
+                    android:title="@string/homeKH"
+                    android:icon="@drawable/ic_customer"/>
+                <item
+                    android:id="@+id/nav_sp"
+                    android:title="@string/homeSP"
+                    android:icon="@drawable/ic_product"/>
+                <item
+                    android:id="@+id/nav_dh"
+                    android:title="@string/homeDH"
+                    android:icon="@drawable/ic_order"/>
+
+                <item
+                    android:id="@+id/nav_thongke"
+                    android:icon="@drawable/ic_stats"
+                    android:title="@string/homeThongKe" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/Other">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_doingonngu"
+                    android:icon="@drawable/ic_language"
+                    android:title="@string/trangDoiNgonNgu" />
+                <item
+                    android:id="@+id/nav_aboutus"
+                    android:icon="@drawable/ic_about"
+                    android:title="@string/trangAboutUs" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

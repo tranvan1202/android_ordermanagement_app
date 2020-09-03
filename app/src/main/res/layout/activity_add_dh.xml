@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.ActivityThemDH"
+    android:padding="30dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textinputnhapMaDH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/nhapMaDH"
+        style="@style/txtTextStyle"
+        android:hint="@string/hintMaDH"
+        android:autofillHints="@string/hintMaDH" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/nhapSpinnerMaKH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:entries="@array/hintArrayMaKH"
+        android:layout_gravity="center_horizontal"/>
+    <Spinner
+        android:id="@+id/nhapSpinnerMaSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:entries="@array/hintArrayMaSP"
+        android:layout_gravity="center_horizontal"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/nhapSoLuongSP"
+        style="@style/txtNumberStyle"
+        android:hint="@string/hintSoLuongSP"
+        android:autofillHints="@string/hintSoLuongSP" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/nhapNgayTaoDH"
+        style="@style/txtTextStyle"
+        android:hint="@string/hintNgayTaoDH"
+        android:autofillHints="@string/hintNgayTaoDH" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/nhapSpinnerTinhTrangDH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:entries="@array/hintArrayTinhTrangDH"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/add_button_dh"
+        android:background="@drawable/them"
+        style="@style/btnStyle"
+        android:text="@string/btnThem"/>
+</LinearLayout>

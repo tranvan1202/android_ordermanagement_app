@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/recyclerViewItemLayoutSP">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewSP"
+        style="@style/cardView">
+        <LinearLayout
+            style="@style/ItemListStyle">
+            <TextView
+                android:id="@+id/tvRecyclerViewIDSP"
+                style="@style/tvRecyclerViewIDKH"
+                android:text="@string/tvID" />
+            <ImageView
+                android:id="@+id/imgRecyclerViewIDSP"
+                style="@style/imgID" />
+
+            <LinearLayout
+                style="@style/ItemListStyleInformation">
+                <LinearLayout
+                    style="@style/LinearLayoutHorizontal">
+                    <TextView
+                        style="@style/tvNotBold"
+                        android:text="@string/hintMaSP"/>
+                    <TextView
+                        android:id="@+id/tvMaSP"
+                        style="@style/tvBold"
+                        android:text="@string/hintMaSP" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/LinearLayoutHorizontal">
+                    <TextView
+                        style="@style/tvNotBold"
+                        android:text="@string/hintTenSP"/>
+                    <TextView
+                        android:id="@+id/tvTenSP"
+                        style="@style/tvBold"
+                        android:text="@string/hintTenSP" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/LinearLayoutHorizontal">
+                    <TextView
+                        style="@style/tvNotBold"
+                        android:text="@string/hintXuatXu"/>
+                    <TextView
+                        android:id="@+id/tvXuatXu"
+                        style="@style/tvBold"
+                        android:text="@string/hintXuatXu" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/tvNotBold"
+                        android:text="@string/hintDonGia"/>
+                    <TextView
+                        android:id="@+id/tvDonGia"
+                        style="@style/tvBold"
+                        android:text="@string/hintDonGia" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/recyclerViewItemLayoutDH">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewDH"
+        style="@style/cardView">
+        <LinearLayout
+            style="@style/ItemListStyle">
+            <TextView
+                android:id="@+id/tvRecyclerViewIDDH"
+                style="@style/tvRecyclerViewIDKH"
+                android:text="@string/tvID" />
+            <ImageView
+                android:id="@+id/imgRecyclerViewIDDH"
+                style="@style/imgID" />
+
+            <LinearLayout
+                style="@style/ItemListStyleInformation">
+
+                <LinearLayout
+                    style="@style/LinearLayoutHorizontal">
+                    <TextView
+                        style="@style/tvNotBold"
+                        android:text="@string/hintMaDH"/>
+                    <TextView
+                        android:id="@+id/tvMaDH"
+                        style="@style/tvBold"
+                        android:text="@string/hintMaDH" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/LinearLayoutHorizontal">
+                    <TextView
+                        style="@style/tvNotBold"
+                        android:text="@string/hintMaKH"/>
+                    <TextView
+                        android:id="@+id/tvMaKHDH"
+                        style="@style/tvBold"
+                        android:text="@string/hintMaKH" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/LinearLayoutHorizontal">
+                    <TextView
+                        style="@style/tvNotBold"
+                        android:text="@string/hintMaSP"/>
+                    <TextView
+                        android:id="@+id/tvMaSPDH"
+                        style="@style/tvBold"
+                        android:text="@string/hintMaSP" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/LinearLayoutHorizontal">
+                    <TextView
+                        style="@style/tvNotBold"
+                        android:text="@string/hintSoLuongSP"/>
+                    <TextView
+                        android:id="@+id/tvSoLuong"
+                        style="@style/tvBold"
+                        android:text="@string/hintSoLuongSP" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/LinearLayoutHorizontal">
+                    <TextView
+                        style="@style/tvNotBold"
+                        android:text="@string/hintNgayTaoDH"/>
+                    <TextView
+                        android:id="@+id/tvNgayTaoDH"
+                        style="@style/tvBold"
+                        android:text="@string/hintNgayTaoDH" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/LinearLayoutHorizontal">
+                    <TextView
+                        style="@style/tvNotBold"
+                        android:text="@string/hintTinhTrangDH"/>
+                    <TextView
+                        android:id="@+id/tvTinhTrangDH"
+                        style="@style/tvBold"
+                        android:text="@string/hintTinhTrangDH" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.ActivityThemSP"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imgPreviewAddSP"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/no_img" />
+
+        <Button
+            android:id="@+id/button_choose_img_addSP"
+            android:text="Choose image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/nhapMaSP"
+            style="@style/txtTextStyle"
+            android:hint="@string/hintMaSP"
+            android:autofillHints="@string/hintMaSP" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/nhapTenSP"
+            style="@style/txtTextStyle"
+            android:hint="@string/hintTenSP"
+            android:autofillHints="@string/hintTenSP" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/nhapXuatXu"
+            style="@style/txtTextStyle"
+            android:hint="@string/hintXuatXu"
+            android:autofillHints="@string/hintXuatXu" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/nhapDonGia"
+            style="@style/txtNumberStyle"
+            android:hint="@string/hintDonGia"
+            android:autofillHints="@string/hintDonGia" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:background="@drawable/them"
+        android:id="@+id/add_button_sp"
+        style="@style/btnStyle"
+        android:text="@string/btnThem"/>
+</LinearLayout>

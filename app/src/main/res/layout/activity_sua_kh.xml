@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.ActivitySuaKH"
+    android:padding="30dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/suaMaKH"
+            style="@style/txtTextStyle"
+            android:hint="@string/hintMaKH"
+            android:autofillHints="@string/hintMaKH" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/suaTenKH"
+            style="@style/txtTextStyle"
+            android:hint="@string/hintTenKH"
+            android:autofillHints="@string/hintTenKH" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/suaDiaChi"
+            style="@style/txtTextStyle"
+            android:hint="@string/hintDiaChi"
+            android:autofillHints="@string/hintDiaChi" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/suaSoDT"
+            style="@style/txtNumberStyle"
+            android:hint="@string/hintSoDT"
+            android:autofillHints="@string/hintSoDT" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/save_button_kh"
+        android:background="@drawable/them"
+        style="@style/btnStyle"
+        android:text="@string/btnLuu"/>
+
+    <Button
+        android:id="@+id/delete_button_kh"
+        android:background="@drawable/them"
+        style="@style/btnStyle"
+        android:text="@string/btnXoa"
+        android:textColor="@color/red"/>
+</LinearLayout>

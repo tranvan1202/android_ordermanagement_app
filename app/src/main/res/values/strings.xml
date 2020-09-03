@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Quản lý đơn đặt hàng</string>
+    <string name="hintDiaChi">Địa chỉ KH</string>
+    <string name="hintTenKH">Tên KH</string>
+    <string name="hintSoDT">Số ĐT KH</string>
+    <string name="btnThem">Thêm</string>
+    <string name="hintMaKH">Mã KH</string>
+    <string name="tvID">1</string>
+    <string name="trangKH">Danh sách khách hàng</string>
+    <string name="btnLuu">Lưu</string>
+    <string name="btnXoa">Xóa</string>
+    <string name="btnXoaTatCa">Xóa tất cả</string>
+    <string name="noData">Không có dữ liệu</string>
+    <string name="contentDesNoData">imageNoData</string>
+    <string name="btnTimKiem">Tìm kiếm</string>
+    <string name="titleKhachHang">Danh sách khách hàng</string>
+    <string name="confirmDeleteAllTittle">Xóa tất cả ?</string>
+    <string name="confirmDeleteAllMessages">Bạn có chắc muốn xóa hết tất cả dữ liệu không ?</string>
+    <string name="confirmYes">Có</string>
+    <string name="confirmNo">Không</string>
+    <string name="alertNull">Vui lòng nhập đủ</string>
+    <string name="alertSuccess">Thành công</string>
+    <string name="confirmDeleteTitle">Xóa dữ liệu ? </string>
+    <string name="confirmDeleteMessage">Bạn có chắc muốn xóa dữ liệu của </string>
+    <string name="titleFormEditKH">Sửa Khách Hàng</string>
+    <string name="titleFormAddKH">"Thêm Khách Hàng "</string>
+    <string name="titleDialogShakeDH">Người thực hiện</string>
+    <string name="messageDialogShakeDH">Nhóm 9 - TDC - Android 2\n*Trần Bình Văn - 17211TT0053*</string>
+    <string name="infor">Trần Bình Văn- 17211TT0053</string>
+    <string name="openBar">mở</string>
+    <string name="closeBar">đóng</string>
+    <string name="homeDanhMuc">Danh mục</string>
+    <string name="homeThongKe">Thống kê</string>
+    <string name="homeDH">Đơn hàng</string>
+    <string name="homeSP">Sản phẩm</string>
+    <string name="homeKH">Khách hàng</string>
+    <string name="homeHome">Trang chủ</string>
+
+    <string name="hintMaDH">Mã đơn hàng:</string>
+    <string name="hintMaSP">Mã sản phẩm:</string>
+    <string name="hintSoLuongSP">Số lượng sản phẩm:</string>
+    <string name="hintNgayTaoDH">Ngày tạo đơn hàng:</string>
+    <string name="hintXuatXu">Xuất xứ sản phẩm:</string>
+    <string name="hintDonGia">Giá tiền một đơn vị:</string>
+    <string name="hintTenSP">Tên sản phẩm</string>
+    <string name="hintTinhTrangDH">Tình trạng đơn hàng:</string>
+
+    <string name="titleFormEditSP">Sửa sản phẩm</string>
+    <string name="titleFormAddSP">Thêm sản phẩm</string>
+    <string name="titleFormEditDH">Sửa đơn hàng</string>
+    <string name="titleFormAddDH">Thêm đơn hàng</string>
+
+    <string name="trangDH">Danh sách đơn hàng</string>
+    <string name="trangSP">Danh sách sản phẩm</string>
+    <string name="trangThongKe">Thống kê</string>
+    <string name="trangDoiNgonNgu">Đổi ngôn ngữ</string>
+
+    <string-array name="hintArrayMaKH">
+        <item>KH01</item>
+        <item>KH02</item>
+    </string-array>
+    <string-array name="hintArrayMaSP">
+        <item>SP01</item>
+        <item>SP02</item>
+    </string-array>
+    <string-array name="hintArrayTinhTrangDH">
+        <item>Đang giao</item>
+        <item>Đã giao</item>
+    </string-array>
+
+    <string-array name="language_option">
+        <item>English</item>
+        <item>Vietnamese</item>
+    </string-array>
+    <string name="hintSoLuong">Số lượng:</string>
+    <string name="hintNgayTao">Ngày tạo:</string>
+    <string name="Other">Khác</string>
+    <string name="trangAboutUs">Về chúng tôi</string>
+    <string name="inforHeader">Nhóm 9</string>
+</resources>
